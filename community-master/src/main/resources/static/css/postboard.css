@@ -1,0 +1,118 @@
+body{text-align: center;
+}
+#header{
+    width:1200px;
+    position:relative;
+    margin:0 auto;
+}
+.top-menu a {
+    text-decoration: none;
+    color:black;
+    font-size:14px;
+    font-family: 'Song Myung', serif;
+
+}
+.top-menu a:hover{
+    color:cornflowerblue;
+}
+.top-menu{
+   text-align:right;
+}
+
+
+.top-wrap{
+    height:100px;
+    position: relative;
+    border-bottom:1px solid black;
+}
+div{
+    display:block;
+}
+a{
+    text-decoration: none;
+    color:red;
+    font-family: 'Song Myung', serif;
+    font-size:50px;
+}
+hr{
+    color:rgb(233, 231, 231);
+}
+p{
+    color:black;
+    font-size:20px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight:bold;
+
+}
+ p:hover{
+    color:cornflowerblue;
+}
+time{
+    font-family: 'Song Myung', serif;
+    float:right;
+    color:black;
+
+}
+h2{
+    border-bottom:2px solid rgb(233, 231, 231);
+    background:rgb(240, 236, 236);
+
+}
+h2 a{
+    color:cornflowerblue;
+    font-family: 'Song Myung', serif;
+}
+h1{
+    font-family: 'Song Myung', serif;
+
+}
+strong{
+    color:cornflowerblue;
+}
+
+section .card{
+    padding: 0px 2px 4px 2px;
+    float: center;
+    border: 3px solid rgb(233, 231, 231);
+    border-radius: 30px;
+
+
+}
+.writepost{
+    display: block;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    height: 50px;
+    line-height: 46px;
+    border: 2px solid #d6d6d6;
+    box-sizing: border-box;
+    cursor: text;
+    color: #807d7d;
+    font-size: 14px;
+    background: #e7e0e0  ;
+}
+.table {
+      border-collapse: collapse;
+      border-top: 3px solid #168;
+      width:100%;
+    }
+    .table th {
+      color: #168;
+      background:rgb(240, 236, 236);
+      text-align: center;
+      color:cornflowerblue;
+      font-family: 'Song Myung', serif;
+    }
+    .table th, .table td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    .table th:first-child, .table td:first-child {
+      border-left: 0;
+    }
+    .table th:last-child, .table td:last-child {
+      border-right: 0;
+    }
+    .table tr td:first-child{
+      text-align: center;
+    }

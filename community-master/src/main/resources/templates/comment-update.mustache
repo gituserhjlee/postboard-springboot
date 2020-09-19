@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>스프링부트 웹서비스</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+
+<h1>댓글 수정</h1>
+
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="title">글 번호</label>
+                <input type="text" class="form-control" id="id" value="{{comment.id}}" readonly>
+            </div>
+            <div class="form-group">
+                <label for="author"> 작성자 </label>
+                <input type="text" class="form-control" id="author" value="{{comment.author}}" readonly>
+            </div>
+            <div class="form-group">
+                <label for="content"> 내용 </label>
+                <textarea class="form-control" id="content">{{comment.content}}</textarea>
+            </div>
+        </form>
+        <a href="/" role="button" class="btn btn-secondary">취소</a>
+        <button type="button" class="btn btn-primary" id="btn-update">수정 완료</button>
+        <button type="button" class="btn btn-danger" id="btn-delete">삭제</button>
+        <a href="" class="btn btn-primary" role="button">댓글달기</a>
+
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!--index.js 추가-->
+<script src="/js/app/index_2.js"></script>
+</body>
+</html>
